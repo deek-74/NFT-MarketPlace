@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NFT Marketplace</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js.js" defer></script>
+  </head>
+  <body>
+    <div class="bgimg">
+      <img src="" id="crimg" alt="Background Image" />
+
+      <nav class="navbar">
+        <ul class="navlist">
+          <div class="logo"><img src="img/mon.jpeg" alt="logo" /></div>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#Explore">Explore</a></li>
+          <li><a href="sell.html">Sell</a></li>
+          <li><a href="#Create">Create</a></li>
+          <li><a href="signin.html">Sign-in</a></li>
+        </ul>
+        <div class="rightnav">
+          <input type="text" id="search" placeholder="Search for collections, NFTs and Users" />
+          <button class="button1 btn-sm">Search</button>
+          <button class="wallet">Connect wallet</button>
+        </div>
+      </nav>
+
+      <section class="img9">
+        <section class="background first section">
+          <div class="flex-container">
+            <header>
+              <h1 class="cut-write-heading">Trending</h1>
+            </header>
+          </div>
+        </section>
+
+        <section class="grid">
+          <div class="container" id="nft-container">
+            <div class="item-grid" id="item-grid">
+              <!-- Items will be loaded dynamically -->
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <div class="overlay" id="overlay">
+        <div class="popup">
+          <p class="head">Choose Your Wallet:</p>
+          <a href="https://metamask.io/" id="log">Metamask</a>
+          <a href="https://www.coinbase.com/" id="log">Coinbase</a>
+          <a href="https://walletconnect.com/" id="log">Wallet Connect</a>
+          <a href="https://phantom.app/" id="log">Phantom</a>
+          <br />
+          <button onclick="closePopup()" id="close">Close</button>
+        </div>
+      </div>
+
+      <hr />
+      <footer>
+        <div class="foot-panel1">
+          <button class="top">Back to top</button>
+        </div>
+        <div class="foot-panel2">
+          <ul>
+            <p class="head1">Get to know N50</p>
+            <a href="#">Blog</a>
+            <a href="#">Career</a>
+            <a href="#">About N50</a>
+            <a href="#">Founders</a>
+          </ul>
+          <ul>
+            <p class="head2">Contact Us</p>
+            <a href="#">Email: N50@gmail.com</a>
+            <a href="#">Ph no: 6678465593</a>
+            <a href="#">Twitter: N50@X</a>
+          </ul>
+          <ul>
+            <p class="head3">Address</p>
+            <a href="https://maps.app.goo.gl/JGDWgmoJm6JprBc49" class="add">I-81, Noman's Road</a>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
